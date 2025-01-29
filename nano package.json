@@ -1,0 +1,16 @@
+{
+  "name": "ireader-fictionzone-plugin",
+  "version": "1.0.0",
+  "main": "dist/fictionzone.plugin.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "dayjs": "^1.11.7"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
